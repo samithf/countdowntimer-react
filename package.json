@@ -1,5 +1,5 @@
 {
-  "name": "countdown-timer",
+  "name": "countdownb-timer",
   "version": "1.0.0",
   "description": "A React library used to countdown time",
   "main": "dist/countdown.min.js",
