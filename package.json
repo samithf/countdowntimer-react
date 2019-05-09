@@ -1,0 +1,29 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "A React library used to countdown time",
+  "main": "dist/countdown.min.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c -o dist/countdown.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steinryan/countdowntimer-react.git"
+  },
+  "author": "Samith Dilhara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steinryan/countdowntimer-react/issues"
+  },
+  "homepage": "https://github.com/steinryan/countdowntimer-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
